@@ -2,7 +2,7 @@
 title: Personal Portfolio Website
 tags: [Astro, TailwindCSS, Netlify]
 image:
-  src: /images/astro-personal-portfolio.png
+  src: /images/portfolio.png
   alt: ""
 timestamp: 2023-07-29
 description: You are looking at it now! A rebuilt of my personal portfolio website using Astro, TailwindCSS and Netlify
