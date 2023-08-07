@@ -16,24 +16,24 @@ recent_projects = recent_projects
 
 <Layout title="Shivansh Shukla">
   <div
-    class="flex md:flex-row gap-16 items-center flex-col justify-center mt-0 md:mt-6"
-  >
+    class="flex md:flex-row gap-16 items-center flex-col justify-center mt-0 md:mt-6">
     <!-- hero description -->
     <div class="flex-[3] flex flex-col">
       <h1
-        class="typewrite text-3xl font-bold text-terminal-green md:inline-flex hidden w-fit"
-      >
-        const name = Shivansh Shukla.
+        class="typewrite text-3xl font-bold text-terminal-green md:inline-flex hidden w-fit">
+        Class Shivansh_Shukla {"{"}
       </h1>
       <p class="mt-2 text-center md:text-left">
-        const designation = Web Developer;
+        &nbsp; this.designation = "Web Developer";
       </p>
       <p class="mt-2 text-center md:text-left">
-        const studies = Computer Science;
+        &nbsp; this.studies = "Computer Science";
       </p>
       <p class="mt-2 text-center md:text-left">
-        const hobbies = Netflix, Dance, Sleep;
+        &nbsp; this.hobbies = "Netflix, Coding, Sleep";
       </p>
+      <br />
+      {"}"}
       <ButtonLink
         label="View CV"
         link="/ShivanshShukla.pdf"
@@ -55,8 +55,7 @@ recent_projects = recent_projects
 
   <!-- recent projects -->
   <div
-    class="mt-8 text-2xl font-bold text-white flex gap-2 items-center justify-between"
-  >
+    class="mt-8 text-2xl font-bold text-white flex gap-2 items-center justify-between">
     <span>
       Recent
       <span class="text-terminal-green">Projects</span>
@@ -102,8 +101,7 @@ recent_projects = recent_projects
                 {data.description}
                 <a
                   class="text-terminal-green underline underline-offset-2"
-                  href={"/projects/" + project.slug}
-                >
+                  href={"/projects/" + project.slug}>
                   Learn more
                 </a>
               </p>
