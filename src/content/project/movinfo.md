@@ -4,7 +4,7 @@ tags: [Next.JS, React, Redux Toolkit, REST API, SASS, Netlify]
 image:
   src: /images/movie-app.png
   alt: ""
-timestamp: 2023-06-10
+timestamp: 2023-09-10
 description: A movie application where you can search, check out latest movies.
 demoLink: https://movinfo-app.netlify.app/
 codeLink: https://github.com/theprogrammerinyou/Movie-Information-and-search
